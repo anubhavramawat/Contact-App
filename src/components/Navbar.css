@@ -1,0 +1,11 @@
+.app_name{
+    height: auto;
+    background-color: white;
+    border-radius: 15px;
+    margin: 10px;
+    display: flex;
+    justify-content: center;
+    font-size: x-large;
+    font-weight: 100;
+    
+}

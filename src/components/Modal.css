@@ -1,0 +1,30 @@
+.modal{
+    /* min-height: 200px;
+    max-width: 80%; 
+    background-color: white;*/
+    color: red;
+}
+/* .main-div{
+    position: absolute;
+    top: 0;
+    align-items: center;
+    display: grid;
+    height: 100vh;
+    width: 100vh;
+    z-index: 40;
+    backdrop-filter: blur(5px);
+} */
+.cross{
+    font-size: large;
+    color: #ffc107;
+    display: flex;
+    align-self: self-end;
+}
+.foot{
+    position: absolute;
+    top: 0;
+    height: 100vh;
+    width: 100vw;
+    backdrop-filter: blur(5px);
+    z-index: 40;
+}

@@ -1,0 +1,29 @@
+.main{
+    max-width: 370px;
+    margin-left: auto;
+    margin-right: auto;
+}
+.input_field{
+    /* border-color:red;
+    background-color: transparent;
+    /* border-radius: 10px; */
+    /* height: 40px; */
+    /* display: flex; */ 
+}
+.search{
+    /* position: absolute; */
+    top: 6px;
+    left: 11px 
+}
+.contact_id{
+    background-color: #FFEAAE;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    border-radius: 0.5rem;
+    padding: 0.5rem;
+}
+.face{
+    font-size: 2.25rem;
+    color:#f6820c;
+}
