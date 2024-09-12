@@ -3,12 +3,12 @@ import './App.css';
 import { FaSearch } from "react-icons/fa";
 import { AiFillPlusCircle } from "react-icons/ai";
 import { useEffect, useState } from "react";
-import {collection, getDocs, onSnapshot} from "firebase/firestore";
+import {collection, onSnapshot} from "firebase/firestore";
 import {db} from "./config/firebase";
 import ContactCard from "./components/ContactCard";
-import Modal from "./components/Modal";
+//import Modal from "./components/Modal";
 import AddAndUpdateContact from "./components/AddAndUpdateContact";
-import { ToastContainer, toast } from 'react-toastify';
+import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css';
 import NoContact from "./components/NoContact";
 

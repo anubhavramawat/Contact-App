@@ -2,7 +2,7 @@ import React from 'react'
 import {HiOutlineUserCircle} from "react-icons/hi";
 import {RiEditCircleLine} from"react-icons/ri";
 import {IoMdTrash} from "react-icons/io";
-import { deleteDoc,collection, doc } from 'firebase/firestore';
+import { deleteDoc, doc } from 'firebase/firestore';
 import { db } from '../config/firebase';
 import AddAndUpdateContact from './AddAndUpdateContact';
 import { useState } from 'react';
@@ -23,7 +23,6 @@ const ContactCard = ({contact}) => {
 
     const deleteContact= async (id)=>{
       try {
-       //const contactRef=collection(db,"contacts");
        await deleteDoc(doc(db,"contacts",id));
        toast.success("Contact Deleted Successfully")
       } catch (error) {
